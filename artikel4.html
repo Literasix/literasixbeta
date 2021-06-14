@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Artikel Literasix</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/icons-1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/tallwind.css">
+
+    <!-- <link rel="preload" href="assets/css/appe435.css?v=f4b5551211" as="style" /> -->
+    <!-- <link rel="preload" href="assets/js/manifeste435.js?v=f4b5551211" as="script" />
+    <link rel="preload" href="assets/js/vendor/content-api.mine435.js?v=f4b5551211" as="script" />
+    <link rel="preload" href="assets/js/vendore435.js?v=f4b5551211" as="script" />
+    <link rel="preload" href="assets/js/appe435.js?v=f4b5551211" as="script" /> -->
+    <link rel="preconnect" href="https://polyfill.io/">
+    <link rel="dns-prefetch" href="https://polyfill.io/">
+
+    <!-- <link rel="preload" href="assets/css/poste435.css?v=f4b5551211" as="style" />
+    <link rel="preload" href="assets/js/poste435.js?v=f4b5551211" as="script" /> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/theme.min.css"> -->
+
+
+    <!-- <style>
+      
+
+        /* source-sans-pro-regular */
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-regulare435.woff2?v=f4b5551211") format('woff2'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-regulare435.woff?v=f4b5551211") format('woff');
+        }
+
+        /* source-sans-pro-600 */
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-600e435.woff2?v=f4b5551211") format('woff2'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-600e435.woff?v=f4b5551211") format('woff');
+        }
+
+        /* source-sans-pro-700 */
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-700e435.woff2?v=f4b5551211") format('woff2'),
+                url("assets/fonts/source-sans-pro/latin/source-sans-pro-700e435.woff?v=f4b5551211") format('woff');
+        }
+
+        /* iconmoon */
+        @font-face {
+            font-family: 'icomoon';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url("assets/fonts/icomoon/icomoond1c7.eot?101fc3?v=f4b5551211");
+            src: url("assets/fonts/icomoon/icomoon2c17.eot?101fc3#iefix?v=f4b5551211") format('embedded-opentype'),
+                url("assets/fonts/icomoon/icomoond1c7.ttf?101fc3?v=f4b5551211") format('truetype'),
+                url("assets/fonts/icomoon/icomoond1c7.woff?101fc3?v=f4b5551211") format('woff'),
+                url("assets/fonts/icomoon/icomoon2c17.svg?101fc3#icomoon?v=f4b5551211") format('svg');
+        }
+    </style> -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/appe435.css?v=f4b5551211" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/poste435.css?v=f4b5551211" media="screen" />
+
+
+
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="canonical" href="index.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="amp/index.html" />
+
+    <meta property="og:site_name" content="Programmer Zaman Now" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Studi Kasus Java Database : Aplikasi Todolist" />
+
+
+    <!-- <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Programmer Zaman Now",
+                "url": "https://www.programmerzamannow.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.programmerzamannow.com/favicon.png",
+                    "width": 60,
+                    "height": 60
+                }
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Eko Kurniawan Khannedy",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "//www.gravatar.com/avatar/df38f3ac51acc07e479259f59984ea7a?s=250&d=mm&r=x",
+                    "width": 250,
+                    "height": 250
+                },
+                "url": "https://www.programmerzamannow.com/author/khannedy/",
+                "sameAs": [
+                    "https://www.facebook.com/khannedy",
+                    "https://twitter.com/khannedy"
+                ]
+            },
+            "headline": "Studi Kasus Java Database : Aplikasi Todolist",
+            "url": "https://www.programmerzamannow.com/video-tutorial-java-database-aplikasi-todolist/",
+            "datePublished": "2021-02-24T04:28:38.000Z",
+            "dateModified": "2021-02-24T04:28:38.000Z",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.programmerzamannow.com/content/images/2021/02/STUDI-KASUS-JAVA-DATABASE-APLIKASI-TODOLIST.png",
+                "width": 1920,
+                "height": 1080
+            },
+            "keywords": "Java, MySQL",
+            "description": "Pada course ini kita akan melanjutkan materi Java OOP membuat aplikasi todolist. Sekarang kita akan ubah aplikasi sebelumnya menjadi berbasis database menggunakan Java Database dan database MySQL.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.programmerzamannow.com/"
+            }
+        }
+    </script> -->
+
+
+    <!-- <style>
+        .gh-post-upgrade-cta-content,
+        .gh-post-upgrade-cta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            width: 100%;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .gh-post-upgrade-cta-content {
+            border-radius: 8px;
+            padding: 40px 4vw;
+        }
+
+        .gh-post-upgrade-cta h2 {
+            color: #ffffff;
+            font-size: 28px;
+            letter-spacing: -0.2px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gh-post-upgrade-cta p {
+            margin: 20px 0 0;
+            padding: 0;
+        }
+
+        .gh-post-upgrade-cta small {
+            font-size: 16px;
+            letter-spacing: -0.2px;
+        }
+
+        .gh-post-upgrade-cta a {
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: 500;
+            box-shadow: none;
+            text-decoration: underline;
+        }
+
+        .gh-post-upgrade-cta a:hover {
+            color: #ffffff;
+            opacity: 0.8;
+            box-shadow: none;
+            text-decoration: underline;
+        }
+
+        .gh-post-upgrade-cta a.gh-btn {
+            display: block;
+            background: #ffffff;
+            text-decoration: none;
+            margin: 28px 0 0;
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .gh-post-upgrade-cta a.gh-btn:hover {
+            opacity: 0.92;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif !important;
+        }
+
+        .artikel-lainnya:hover {
+            border-bottom: 10px rgb(0, 81, 255) !important;
+        }
+
+
+        .footer {
+            color: #5c5776
+        }
+
+        .footer .nav-footer .nav-link {
+            font-size: .875rem;
+            line-height: 1.5rem;
+            color: #5c5776;
+            padding: .2rem 1rem
+        }
+
+        .footer .nav-footer .nav-link:hover {
+            color: #008cff
+        }
+
+        .docs-nav-sidebar .nav-footer {
+            border-top: 1px solid #eae7f5;
+            padding: .875rem 1.5rem;
+            position: absolute;
+            bottom: 0;
+            background-color: #fff;
+            width: 100%
+        }
+
+        h3 {
+            margin-bottom: .5rem;
+
+            font-weight: 800 !important;
+            line-height: 1.4;
+            color: #18113c
+        }
+
+
+
+        .h3,
+        h3 {
+            font-size: 1.25rem
+        }
+
+        /* CHECKBOX TOGGLE SWITCH */
+        /* @apply rules for documentation, these do not work as inline style */
+        .toggle-checkbox {
+            background-color: #000000 !important;
+            border-color: #000000;
+        }
+
+        .toggle-checkbox:checked {
+
+            right: 0;
+            border-color: #ffffff;
+        }
+
+        .toggle-checkbox:checked+.toggle-label {
+
+            background-color: #ffffff;
+            border-color: #ffffff;
+        }
+
+
+        /*Tombol Chat WhatsApp*/
+        .fixed-whatsapp {
+            position: fixed;
+            bottom: 50px;
+            right: 40px;
+            width: 50px;
+            height: 50px;
+            z-index: 9999
+        }
+
+        .fixed-whatsapp:before {
+            content: "";
+            background-repeat: no-repeat;
+            background-size: 34px 34px;
+            background-position: center center;
+            width: 50px;
+            height: 50px;
+        }
+
+        .darkmode-button {
+            position: fixed;
+            width: 100px !important;
+        }
+    </style> -->
+
+
+
+
+
+</head>
+
+<body class="post-template tag-java tag-mysql">
+
+
+<!-- #### Header  ####-->
+<nav class="navbar navbar-expand-lg navbar-light navbar-store sticky-top shadow-sm navbar-fixed-top"
+data-aos="fade-down">
+<div class="container">
+  <!-- <a class="navbar-brand" href="/">
+ <img src="/images/logo.svg" alt="" /> 
+</a> -->
+  <div class="container">
+    <a class="navbar-brand nav-text" href="index.html"><b>LITERASIX</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active nav-text">
+          <a class="nav-link text-nav" href="/">Beranda</a>
+        </li>
+        <li class="nav-item dropdown">
+          <!-- <a class="nav-link text-nav active nav-text" href="#" >Artikel</a> -->
+          <div class="text-nav-dropdown">
+            <a class=" nav-link  active nav-text dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Artikel</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Semua Artikel</a></li>
+              <li><a class="dropdown-item" href="Kategori.html">Kategori Fakta Seru</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="Kategori.html">Kategori Tips & Trik</a></li>
+              <li><a class="dropdown-item" href="Kategori.html">Kategori Konsep Belajar</a></li>
+              <li><a class="dropdown-item" href="Kategori.html">Kategori Pojok Kampus</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-nav active nav-text" href="#">Video</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-nav active nav-text" href="#">Tentang Kami</a>
+        </li>
+        <li class="nav-item ">
+          <a class="btn btn-primary nav-link px-4 text-white" href="/login.html"
+            style="color : #ffffff !important; text-transform: uppercase;">Masuk</a>
+
+        </li>
+        <li class="nav-item ">
+          <a class="btn btn-outline-primary nav-link px-4 tombol2" href="/login.html"
+            style="text-transform: uppercase;">Daftar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+<!-- ####  End Header  ####-->
+
+
+    <main class="main-wrap">
+
+
+
+        <!-- <section class="m-hero with-picture" data-aos="fade">
+            <div class="m-hero__picture in-post">
+                <img sizes="(max-width: 600px) 600px, (max-width: 1000px) 1000px, 2000px" src="assets/images/thumbnail.jpg" alt="" />
+            </div>
+        </section> -->
+
+        <!-- <div class="container">
+            <article style="margin-top: 20px !important;">
+                <div class="l-content">
+                    <div class="l-wrapper in-post" data-aos="fade-up" data-aos-delay="300">
+                        <div class="l-post-content">
+                            <div class="pos-relative js-post-content">
+                                <figure class="kg-card kg-image-card kg-width-wide"><img
+                                        src="assets/images/thumbnail 2.jpg" class="kg-image" alt
+        
+                                        sizes="(min-width: 1200px) 1200px"></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+     -->
+
+        <!-- <section class="m-hero no-picture " data-aos="fade">
+            <div class="m-hero__content" data-aos="fade-down">
+                <h1 class="m-hero-title bigger">Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?</h1>
+                <div class="m-heading__meta">
+                    <a href="tag/java/index.html" class="m-heading__meta__tag">Fakta Seru</a>
+                    <span class="m-heading__meta__divider" aria-hidden="true">&bull;</span>
+                    <span class="m-heading__meta__time">01 Mei 2021</span>
+                </div>
+            </div>
+        </section> -->
+
+
+        <article>
+
+
+
+
+            <div class="l-content in-post">
+                <div class="l-wrapper in-post  js-aos-wrapper" data-aos="fade-up" data-aos-delay="300">
+                    <div class="l-post-content  has-subscribe-form js-progress-content">
+                        <div class="pos-relative js-post-content container">
+                            <h1 class="m-hero-title bigger text-center">Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?</h1>
+                            <div class="m-heading__meta text-center">
+                                <a href="tag/java/index.html" class="m-heading__meta__tag"><span
+                                    class="badge bg-primary">Fakta</span></a>
+                                <span class="m-heading__meta__divider" aria-hidden="true">&bull;</span>
+                                <span class="tanggal-artikel" style="font-size: 18px !important; font-weight: normal !important;">01 Mei 2021</span>
+                            </div>
+                            <figure class="kg-card kg-image-card kg-width-wide"><img src="assets/images/thumbnail 3.png"
+                                    class="kg-image" sizes="(min-width: 1200px) 1200px" style="border-radius: 10px;">
+                            </figure>
+                        </div>
+                        <!-- <header class="m-heading">
+                            <h1 class="m-heading__title in-post">Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?
+                            </h1>
+                            <div class="m-heading__meta">
+                                <a href="tag/java/index.html" class="m-heading__meta__tag">Fakta Seru</a>
+                                <span class="m-heading__meta__divider" aria-hidden="true">&bull;</span>
+                                <span class="m-heading__meta__time">01 Mei 2021</span>
+                            </div>
+                        </header> -->
+
+                        <div class="pos-relative js-post-content">
+                            <div class="m-share">
+                                <div class="m-share__content js-sticky">
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.literasix.id/mengapa-bahasa-inggris-dijadikan-bahasa-internasional?/"
+                                        class="m-icon-button filled in-share" target="_blank" rel="noopener"
+                                        aria-label="Facebook">
+                                        <span class="icon-facebook" aria-hidden="true"></span>
+                                    </a>
+                                    <a href="https://Instagram.com/intent/www.literasix.id/mengapa-bahasa-inggris-dijadikan-bahasa-internasional?"
+                                        class="m-icon-button filled in-share" target="_blank" rel="noopener"
+                                        aria-label="Instagram">
+                                        <span class="icon-instagram" aria-hidden="true"></span>
+                                    </a>
+                                    <a href="https://Instagram.com/intent/www.literasix.id/mengapa-bahasa-inggris-dijadikan-bahasa-internasional?"
+                                        class="m-icon-button filled in-share" target="_blank" rel="noopener"
+                                        aria-label="whatsapp">
+                                        <span class="icon-whatsapp" aria-hidden="true"></span>
+                                    </a>
+                                    <button class="m-icon-button filled in-share progress js-scrolltop"
+                                        aria-label="Gulirkan ke atas">
+                                        <span class="icon-arrow-top" aria-hidden="true"></span>
+                                        <svg aria-hidden="true">
+                                            <circle class="progress-ring__circle js-progress" fill="transparent"
+                                                r="0" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <p>Pada Artikel Kali ini kita akan membahas mengapa bahasa inggris dijadikan sebagai bahasa
+                                internasional, dan digunakan Oleh
+                                banyak negara.
+                            </p>
+
+
+                            <!-- <h3>Daftar Isi</h3> -->
+
+                            <!-- <pre><code><div style="text-decoration: none !important;"><a href="">1 - Pendahuluan</a><br><a href="">2 - Sejarah</a><br><a href="">3 - Faktor Awal</a><br><a href="">4 - Faktor Utama (Wilayah Jajahan Inggris)</a><br><a href="">5 - Kesimpulan</a></div>           
+                        </code></pre> -->
+
+
+
+                            <!-- <figure class="kg-card kg-bookmark-card kg-card-hascaption"><a class="kg-bookmark-container"
+                                    href="https://docs.google.com/presentation/d/1jYseHWErw1QKkQqOtS4VB1dX_O2Ur113JQIeDEsavLw/edit?usp=sharing">
+                                    <div class="kg-bookmark-content">
+                                        <div class="kg-bookmark-title">Studi Kasus Java Database : Aplikasi TodoList
+                                        </div>
+                                        <div class="kg-bookmark-description">Studi Kasus Java Database : Aplikasi
+                                            TodoList Eko Kurniawan Khannedy</div>
+                                        <div class="kg-bookmark-metadata"><img class="kg-bookmark-icon"
+                                                src="https://ssl.gstatic.com/docs/presentations/images/favicon5.ico"><span
+                                                class="kg-bookmark-author">Google Docs</span></div>
+                                    </div>
+                                    <div class="kg-bookmark-thumbnail"><img
+                                            src="https://lh6.googleusercontent.com/yOoxKoziUPb6NXfeeGRpEHn4F_KKeqEPA6mmGXB_8XLlZE1jEtSUcKPs55BKyDGqcjfFrltuOagEVQ=w1200-h630-p">
+                                    </div>
+                                </a>
+                                <figcaption>Slide Studi Kasus Java Database Aplikasi Todolist</figcaption>
+                            </figure>
+                            <figure class="kg-card kg-bookmark-card kg-card-hascaption"><a class="kg-bookmark-container"
+                                    href="https://github.com/ProgrammerZamanNow/studi-kasus-java-database-aplikasi-todolist">
+                                    <div class="kg-bookmark-content">
+                                        <div class="kg-bookmark-title">
+                                            ProgrammerZamanNow/studi-kasus-java-database-aplikasi-todolist</div>
+                                        <div class="kg-bookmark-description">Studi Kasus Java Database Aplikasi
+                                            Todolist. Contribute to
+                                            ProgrammerZamanNow/studi-kasus-java-database-aplikasi-todolist development
+                                            by creating an account on GitHub.</div>
+                                        <div class="kg-bookmark-metadata"><img class="kg-bookmark-icon"
+                                                src="https://github.githubassets.com/favicons/favicon.svg"><span
+                                                class="kg-bookmark-author">GitHub</span><span
+                                                class="kg-bookmark-publisher">ProgrammerZamanNow</span></div>
+                                    </div>
+                                    <div class="kg-bookmark-thumbnail"><img
+                                            src="https://avatars.githubusercontent.com/u/43920414?s=400&amp;v=4"></div>
+                                </a>
+                                <figcaption>Source Code Studi Kasus Java Database Aplikasi Todolist</figcaption>
+                            </figure> -->
+
+
+                            <div style="text-align: justify !important;">
+                                <p>Bahasa Inggris, ya… ngga dimana-mana sekarang kita udah terbiasa menggunakan bahasa
+                                    yang satu
+                                    ini.
+                                    Iya, bahkan kita mengenal bahasa Jaksel, yang dipake dicampur-campur kalau lagi
+                                    ngobrol, atau
+                                    buat
+                                    update status di sosial media.. Bahkan bukan cuma gitu aja, Bahasa Inggris juga
+                                    dipajang di
+                                    papan
+                                    iklan, mau jalan-jalan, buat kerja atau sekolah juga dibiasain pake Bahasa Inggris
+                                </p>. <br>
+
+                                <p> Mau jalan dikit, pake bahasa Inggris.. Mau belajar, pake bahasa Inggris.. Even mau
+                                    ngobrol,
+                                    kadang
+                                    dicampur pake bahasa Inggris.. Ngga dimana-mana, pakenya bahasa Inggris…</p> <br>
+
+                                <p> Meskipun itu bukan bahasa pertama kita, tapi aneh rasanya kalau sekarang ngga bisa
+                                    pake Bahasa
+                                    Inggris. Hemmmm… tapi, kenapa ya bahasa Inggris bisa menjadi bahasa internasional?
+                                    Kenapa bukan
+                                    Bahasa Indonesia, Jawa, atau Minang saja?</p>
+                                <p>
+                                    Dari jutaan bahasa yang ada di dunia, ngga semuanya bisa jadi bahasa Internasional
+                                    seperti
+                                    Bahasa
+                                    Inggris..Mampukah bahasa daerah bisa menandingi ‘kekuatan’ Bahasa Inggris?
+                                    Mau dimana dan kapan aja, pakenya Bahasa Inggris...</p> <br>
+
+                                <p> Tuh kan, hampir semua negara make Bahasa Inggris, gimana ngga go international?
+                                    Dan.. pasti
+                                    banyak
+                                    juga orang-orang yang bukan native speaker, atau penutur asli harus belajar Bahasa
+                                    Inggris, biar
+                                    bisa ngobrol secara global.</p> <br>
+
+                                <p> Memang, kalau di hidup era sekarang, kita udah dibiasain buat pake bahasa Inggris.
+                                    Tapi,
+                                    ternyata
+                                    bukan cuma kita aja, tapi ada sekitar 100 negara di dunia, kini mengakui bahasa
+                                    Inggris, sebagai
+                                    bahasa utama atau kedua di negaranya. Bahasa ini dipake buat sistem pemerintahan,
+                                    buat
+                                    ngebisnis,
+                                    sekolah, dan jalan-jalan, bahkan sampai buat hiburan pun, seperti musik, film,
+                                    serial televisi
+                                    itu
+                                    pun kebanyakan pake bahasa Inggris.</p>
+                                <p>
+                                    Oleh karenanya, banyak dari kita yang kemudian belajar bahasa Inggris agar bisa
+                                    mengerti
+                                    pembicaraan banyak orang di dunia. Yes, English is a must. Begitulah kira-kira, tapi
+                                    kenapa ya
+                                    harus bahasa Inggris? Apa emang ngga ada bahasa lain?
+                                </p> <br>
+                                <p>Banyak juga yang make bahasa Inggris jadi bahasa utama. Dan.. Bahasa Inggris juga
+                                    jadi bahasa
+                                    kedua
+                                    di negara yang ngga ditandain warna merah itu…
+                                </p>
+
+                                <p>
+                                    Sebenarnya, banyak bahasa lain yang dipake misalnya Mandarin atau bahasa Perancis.
+                                    Cuma kedua
+                                    bahasa ini cuman dipake secara resmi hanya untuk kebutuhan tertentu aja. Beda sama
+                                    bahasa
+                                    Inggris
+                                    yang dipake hampir diseluruh bidang kehidupan, terutama ekonomi dan politik. Punya
+                                    bahasa global
+                                    ini membawa keuntungan soalnya kita perlu buat saling memahami biar ngga berantem.
+                                    Nah, yang
+                                    terpilih adalah bahasa Inggris. Dan, ini ngga disadari sekarang ini aja, tapi udah
+                                    dari lama..
+                                </p>
+
+                                <p> Kita bisa menyebut Bahasa Inggris sebagai lingua franca.. Hem.. tapi apa itu lingua
+                                    franca?</p>
+
+                                <p> Jika ditelisik dari sejarahnya, sejak zaman Romawi Kuno, kita telah menyadari
+                                    diperlukannya
+                                    satu
+                                    bahasa umum yang bisa dimengerti oleh banyak orang atau disebut sebagai lingua
+                                    franca. Dalam
+                                    sejarahnya sendiri, lingua franca, sempat berganti-ganti tiap masanya. Begitu juga
+                                    dengan bahasa
+                                    Inggris, yang memiliki sejarah cukup panjang untuk menjadi Lingua Franca.
+                                    Bahasa Inggris = Bahasa Internasional
+                                </p>
+                                <p>Duo K ini yang ngebuat bahasa Inggris bisa jadi bahasa internasional… hem.. Menarik
+                                    juga ya..
+                                    Tapi,
+                                    gimana keterkaitannya?</p>
+
+                                <p>Buat jadi bahasa internasional, ternyata punya perjalanan yang cukup panjang.
+                                    Pendeknya, dua
+                                    faktor
+                                    besar mempengaruhi bagaimana bahasa Inggris bisa menjadi bahasa, dalam tanda kutip,
+                                    internasional.
+                                    Yang pertama adalah kolonialisasi Inggris. Dan yang kedua adalah globalisasi. Kedua
+                                    hal ini
+                                    cukup
+                                    kuat bikin bisa dipake dimana saja, entah jadi bahasa resmi atau jadi bahasa kedua
+                                    dari negara
+                                    tersebut.</p>
+
+                                <p>Berawal dari sejarah, memang kekuatan Inggris dari dulu emang ngga diragukan lagi.
+                                    Dia membawa
+                                    bahasanya ke beberapa negara koloninya. Dan.. jadilah, banyak negara yang ngikutin
+                                    buat pake
+                                    Bahasa
+                                    Inggris..</p>
+
+                                <p>
+                                    Pertama, kolonialisasi yang dilakukan oleh Inggris. Setelah era revolusi industri,
+                                    Kerajaan
+                                    Inggris
+                                    menjadi negara dengan teknologi dan militer paling maju di dunia. Keadaan ini
+                                    membuat Inggris
+                                    menjadi negara dengan jumlah wilayah jajahan terluas dan menjadikan bahasanya paling
+                                    banyak
+                                    digunakan di dunia.</p>
+
+                                <p> Selanjutnya, dominasi ekonomi Amerika Serikat pun mendukung penggunaan Bahasa
+                                    Inggris,
+                                    khususnya
+                                    dalam dunia bisnis. Kalau mau dikenal secara internasional, mau ngga mau ya pake
+                                    Bahasa
+                                    Inggris..
+                                </p>
+
+                                <p> Kemudian faktornya tak hanya dari negara Inggris saja, tetapi pada awal abad ke 20,
+                                    negara
+                                    berbahasa Inggris lain, yaitu Amerika Serikat, muncul sebagai negara dengan kekuatan
+                                    ekonomi
+                                    terbesar di dunia. Singkatnya, kekuatan ekonomi Amerika Serikat yang sangat besar,
+                                    memaksa
+                                    negara-negara lain di dunia, untuk menggunakan Dollar dan tentunya berkomunikasi
+                                    dalam bahasa
+                                    Inggris. Dan para perusahaan pun menggunakan bahasa Inggris sebagai bahasa resmi
+                                    dalam dunia
+                                    bisnis. Pendeknya, kekuatan Amerika Serikat ini jadi faktor kedua kenapa sih bahasa
+                                    Inggris jadi
+                                    bahasa internasional. Perlu diingat juga, kalau Amerika Serikat juga bagian dari
+                                    koloni Inggris,
+                                    so
+                                    negara ini juga memakai bahasa Inggris.</p>
+
+                                <p>Bingung kan, kalau pas ngobrol bahasa beda. Nah, biar gampang ngobrolnya pake bahasa
+                                    yang sama.
+                                    Dan
+                                    yang disepakati ya pake Bahasa Inggris..</p>
+
+                                <p> Lalu faktanya, fenomena globalisasi juga ikut memperkokoh posisi bahasa Inggris
+                                    sebagai bahasa
+                                    internasional. Pada era globalisasi, banyak perusahaan dan media asing, terutama
+                                    dari Amerika
+                                    Serikat, mendirikan kantornya di negara lain. Akibatnya, banyak dari kita yang
+                                    belajar bahasa
+                                    Inggris agar bisa diterima bekerja di perusahaan asing tersebut, yang tentunya
+                                    menjanjikan gaji
+                                    cukup besar.</p>
+
+
+
+                                <p>Ditambah lagi, ada globalisasi, ya pasti ada ‘penyeragaman’.. Ngga heran mulai dari
+                                    bisnis,
+                                    media
+                                    sampai komunikasi sehari-hari pakenya Bahasa Inggris!</p>
+
+                                <p> Selain itu, siaran media asing berbahasa Inggris yang makin sering kita dengar dan
+                                    lihat
+                                    membuat
+                                    kita ikut terbiasa menggunakan bahasa Inggris. Ngga cuma di dunia bisnis dan media
+                                    aja, bahasa
+                                    Inggris juga digunakan dalam dunia perjalanan seperti penerbangan, serta sains dan
+                                    teknologi.
+                                    Banyak buku-buku atau bahan ilmiah gitu yang ngegunain bahasa Inggris.</p>
+
+                                <p>Selain itu, bahasa Inggris juga dipake sebagai bahasa resmi oleh organisasi
+                                    Internasional,
+                                    seperti
+                                    Unesco, Unicef, dan lain-lain. Meskipun, ada bahasa resmi lain seperti Mandarin atau
+                                    Perancis.
+                                    Namun, bahasa Inggris jadi bahasa resmi utama. Jadi, gampangnya, bahasa Inggris bisa
+                                    ‘menembus’
+                                    batasan-batasan negara. Bahkan, kalau mau ada kerja sama antar negara, pasti
+                                    diskusinya pake
+                                    bahasa inggris</p>
+
+                                <h3>Mengapa Bahasa Inggris?</h3>
+
+                                <p>Semua orang pakenya bahasa ini, ngga dimana pun dan kapan pun. Tapi, emangnya ngga
+                                    ada bahasa
+                                    yang
+                                    bisa samain kedudukannya kaya bahasa Inggris?
+                                </p>
+                                <p>
+                                    Menariknya, bahasa Inggris diprediksikan akan tetap menjadi bahasa internasional
+                                    hingga
+                                    berpuluh-puluh tahun ke depan. Pada tahun 2050, India diprediksikan akan menjadi
+                                    negara dengan
+                                    populasi penduduk terbanyak di dunia, mengalahkan Republik Tiongkok. Hingga kini,
+                                    India
+                                    menjadikan
+                                    bahasa Hindi dan Inggris sebagai bahasa resmi negaranya. Akibatnya, pengaruh negara
+                                    ini ke
+                                    depannya
+                                    akan ikut memperkuat bahasa Inggris sebagai bahasa internasional.</p>
+
+                                <p>Pertanyaannya, mengapa bahasa Inggris? Pendeknya, bahasanya cukup simpel, ngga ada
+                                    aturan
+                                    misalnya
+                                    pembedaan kata berdasarkan gender, cara ngomongnya dan ngga pake tanda baca yang
+                                    ribet. Karena
+                                    hal
+                                    ini juga, ngebikin banyak negara akhirnya ikut make bahasa Inggris.
+                                </p>
+                                <p>Nah, simpelnya, bahasa Inggris ngga cuma dipake buat ekonomi dan politik aja, tapi
+                                    juga sampe ke
+                                    sains teknologi, komunikasi, diplomasi pemerintahan, bahkan sampai ke media hiburan
+                                    kita,
+                                    seperti
+                                    musik, film, buku dan televisi. Semuanya pake bahasa Inggris. Dan, internet juga
+                                    kebanyakan
+                                    kontennya pake bahasa Inggris kan?</p>
+
+                                <p> Siapa sih yang ngga seneng nonton? Dan lebih suka acara TV luar daripada TV dalam
+                                    negeri? Sadar
+                                    ngga sih, kebanyakan pake bahasa Inggris, atau kalau bahasa lain sukanya pake
+                                    subtitle yang
+                                    berbahasa Inggris?</p>
+
+                                <p> Hem.. ngga heran bahasa Inggris bisa jadi bahasa ‘internasional’ soalnya emang
+                                    banyak dipake
+                                    hampir
+                                    di seluruh negara dan seluruh bidang kehidupan kita. Nah, kalau semua orang pake
+                                    bahasa Inggris,
+                                    ya
+                                    jadinya mau tidak mau kita harus belajar bahasa Inggris deh. Dan ya, bagi yang belum
+                                    belajar
+                                    bahasa
+                                    Inggris mungkin kalian akan berpikir kembali untuk mempelajarinya. Karena mungkin ke
+                                    depannya,
+                                    kita
+                                    akan menyebut bakso sebagai meatball, bukan bakso lagi.</p>
+
+                                <p>Hem.. nampaknya kita harus belajar Bahasa Inggris.. Bukan untuk gaya-gayaan aja, tapi
+                                    kalau ngga
+                                    bisa Bahasa Inggris susah ngobrol sama bulenya karena semua kehidupan kita
+                                    pakenya….. Ya, Bahasa
+                                    Inggris!</p>
+
+                                <p>Dan seperti biasa, terima kasih.</p>
+                            </div>
+                            <figure class="kg-card kg-embed-card kg-card-hascaption"><iframe width="200" height="113"
+                                    src="https://www.youtube.com/watch?v=P234IbdTTUs" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <figcaption>Video Ilustrasi dan Penjelasan</figcaption>
+                            </figure>
+                            <h2 id="social-media">Social Media</h2>
+                            <ul>
+                                <li>Youtube Channel : <a href="#">Youtube Literasix</a>
+                                </li>
+                                <li>Instagram : <a href="#">Instagram Literasix</a>
+                                </li>
+                                <li>Facebook : <a href="#">Facebook Literasix</a>
+                                </li>
+                                <li>Telegram Channel : <a href="#">Website SMKN1 BANGKINANG <br>
+                                        www.smkn1bangkinang.sch.id</a></li>
+                            </ul>
+                            <section class="m-tags in-post">
+                                <h3 class="m-submenu-title">Tag</h3>
+                                <ul>
+                                    <li>
+                                        <a href="tag/java/index.html" title="Java">Fakta Seru</a>
+                                    </li>
+                                    <li>
+                                        <a href="tag/mysql/index.html" title="MySQL">Bahasa Inggris</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <section class="m-author">
+                    <div class="m-author__content">
+                        <div class="m-author__picture">
+                            <a href="author/khannedy/index.html" class="m-author-picture"
+                                aria-label="Eko Kurniawan Khannedy">
+                                <div style="background-image: url(assets/images/avatar.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="m-author__info">
+                            <h4 class="m-author__name">
+                                <a href="">Riga Aryadi Pratama</a>
+                            </h4>
+                            <p class="m-author__bio">Siswa kelas 12 di SMK Negeri 1 Bangkinang.
+                                Siswa tingkat akhir di SMK Negeri 1 Bangkinang, Jurusan Teknik Komputer dan Jaringan</p>
+                            <ul class="m-author-links">
+                                <li>
+                                    <a href="https://facebook.com/rigaaryadi" target="_blank" rel="noopener"
+                                        aria-label="Facebook">
+                                        <span class="icon-facebook" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://Instagram.com/@rigaaryadi" target="_blank" rel="noopener"
+                                        aria-label="Instagram">
+                                        <span class="icon-instagram" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="m-recommended">
+                    <div class="l-wrapper in-recommended">
+                        <h3 class="m-section-title in-recommended">Direkomendasikan untuk kamu</h3>
+                        <div class="m-recommended-articles">
+                            <div class="m-recommended-slider glide js-recommended-slider">
+                                <div class="glide__track" data-glide-el="track">
+                                    <div class="glide__slides">
+
+                                        <div class="m-recommended-slider__item glide__slide">
+                                            <article class="m-article-card  post tag-java featured">
+                                                <div class="m-article-card__picture">
+                                                    <a href="artikel2.html" class="m-article-card__picture-link"
+                                                        aria-hidden="true" tabindex="-1"></a>
+                                                    <img class="m-article-card__picture-background"
+                                                        src="assets/images/thumbnail.jpg" loading="lazy" alt="">
+                                                    <a href="" class="m-article-card__author js-tooltip" aria-label="y"
+                                                        data-tippy-content="Dikirim oleh Riga Aryadi Pratama">
+                                                        <div style="background-image: url(assets/images/avatar.jpg);">
+                                                        </div>
+                                                    </a>
+                                                    <a href="artikel2.html" class="m-article-card__featured js-tooltip"
+                                                        data-tippy-content="Unggulan" aria-label="Unggulan">
+                                                        <span class="icon-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="m-article-card__info">
+                                                    <a href="tag/java/index.html" class="m-article-card__tag">Fakta</a>
+                                                    <a href="artikel2.html" class="m-article-card__info-link"
+                                                        aria-label="Video Tutorial Java Internationalization">
+                                                        <div>
+                                                            <h2 class="m-article-card__title js-article-card-title "
+                                                                title="Video Tutorial Java Internationalization">
+                                                                Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?
+                                                            </h2>
+                                                        </div>
+
+                                                        <div class="m-article-card__timestamp">
+                                                            <span>9 hari yang lalu</span>
+                                                            <span>&bull;</span>
+                                                            <span>Oleh Riga Aryadi Pratama</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="m-recommended-slider__item glide__slide">
+                                            <article class="m-article-card  post tag-java featured">
+                                                <div class="m-article-card__picture">
+                                                    <a href="artikel2.html" class="m-article-card__picture-link"
+                                                        aria-hidden="true" tabindex="-1"></a>
+                                                    <img class="m-article-card__picture-background"
+                                                        src="assets/images/thumbnail.jpg" loading="lazy" alt="">
+                                                    <a href="" class="m-article-card__author js-tooltip" aria-label="y"
+                                                        data-tippy-content="Dikirim oleh Riga Aryadi Pratama">
+                                                        <div style="background-image: url(assets/images/avatar.jpg);">
+                                                        </div>
+                                                    </a>
+                                                    <a href="artikel2.html" class="m-article-card__featured js-tooltip"
+                                                        data-tippy-content="Unggulan" aria-label="Unggulan">
+                                                        <span class="icon-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="m-article-card__info">
+                                                    <a href="tag/java/index.html" class="m-article-card__tag">Fakta</a>
+                                                    <a href="artikel2.html" class="m-article-card__info-link"
+                                                        aria-label="Video Tutorial Java Internationalization">
+                                                        <div>
+                                                            <h2 class="m-article-card__title js-article-card-title "
+                                                                title="Video Tutorial Java Internationalization">
+                                                                Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?
+                                                            </h2>
+                                                        </div>
+
+                                                        <div class="m-article-card__timestamp">
+                                                            <span>9 hari yang lalu</span>
+                                                            <span>&bull;</span>
+                                                            <span>Oleh Riga Aryadi Pratama</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="m-recommended-slider__item glide__slide">
+                                            <article class="m-article-card  post tag-java featured">
+                                                <div class="m-article-card__picture">
+                                                    <a href="" class="m-article-card__picture-link" aria-hidden="true"
+                                                        tabindex="-1"></a>
+                                                    <img class="m-article-card__picture-background"
+                                                        src="assets/images/thumbnail.jpg" loading="lazy" alt="">
+                                                    <a href="" class="m-article-card__author js-tooltip" aria-label="y"
+                                                        data-tippy-content="Dikirim oleh Riga Aryadi Pratama">
+                                                        <div style="background-image: url(assets/images/avatar.jpg);">
+                                                        </div>
+                                                    </a>
+                                                    <a href="artikel2.html" class="m-article-card__featured js-tooltip"
+                                                        data-tippy-content="Unggulan" aria-label="Unggulan">
+                                                        <span class="icon-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="m-article-card__info">
+                                                    <a href="tag/java/index.html" class="m-article-card__tag">Fakta</a>
+                                                    <a href="artikel2.html" class="m-article-card__info-link"
+                                                        aria-label="Video Tutorial Java Internationalization">
+                                                        <div>
+                                                            <h2 class="m-article-card__title js-article-card-title "
+                                                                title="Video Tutorial Java Internationalization">
+                                                                Mengapa Bahasa Inggris Dijadikan Bahasa Internasional?
+                                                            </h2>
+                                                        </div>
+
+                                                        <div class="m-article-card__timestamp">
+                                                            <span>9 hari yang lalu</span>
+                                                            <span>&bull;</span>
+                                                            <span>Oleh Riga Aryadi Pratama</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-glide-el="controls" class="glide__arrows js-controls">
+                                    <button data-glide-dir="<"
+                                        class="m-icon-button filled in-recommended-articles glide-prev"
+                                        aria-label="Sebelumnya">
+                                        <span class="icon-arrow-left" aria-hidden="true"></span>
+                                    </button>
+                                    <button data-glide-dir=">"
+                                        class="m-icon-button filled in-recommended-articles glide-next"
+                                        aria-label="Selanjutnya">
+                                        <span class="icon-arrow-right" aria-hidden="true"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </article>
+    </main>
+
+
+
+
+    <!-- Pencarian -->
+    <div class="m-search js-search" role="dialog" aria-modal="true" aria-label="Search">
+        <button class="m-icon-button outlined as-close-search js-close-search" aria-label="Close search">
+            <span class="icon-close" aria-hidden="true"></span>
+        </button>
+        <div class="m-search__content">
+            <form class="m-search__form">
+                <div class="pos-relative">
+                    <span class="icon-search m-search-icon" aria-hidden="true"></span>
+                    <label for="search-input" class="sr-only">
+                        Ketik untuk mencari
+                    </label>
+                    <input id="search-input" type="text" class="m-input in-search js-input-search"
+                        placeholder="Ketik untuk mencari">
+                </div>
+            </form>
+            <div class="js-search-results hide"></div>
+            <p class="m-not-found align-center hide js-no-results">
+                Tidak ada hasil untuk pencarian kamu, coba sesuatu yang berbeda.
+            </p>
+        </div>
+    </div>
+    <!-- end pencarian -->
+
+    <!-- <div>
+        <a class='fixed-whatsapp' href='https://api.whatsapp.com/send?phone=628xxxxxxxxxx' rel='nofollow noopener' target='_blank' title='Whatsapp' ></a>
+    </div> -->
+    <div
+        class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in fixed-whatsapp">
+        <input type="checkbox" name="toggle" id="toggle toggle-darkmode"
+            class="js-toggle-darkmode toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
+        <label for="toggle"
+            class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+        <!-- <span><label for="toggle" class="custom-control-label darkmode-button">Darkmode</label></span> -->
+        <span class="badge bg-dark">Darkmode</span>
+    </div>
+
+
+    <!-- <footer class="site-footer section block bg-contrast">
+        <div class="container py-4">
+            <div class="row gap-y text-center text-md-left">
+                <div class="col-md-4 mr-auto"><img src="../img/logo.png" alt="" class="logo">
+                    <p>Dashcore, a carefully crafted and powerful HTML5 template, it's perfect to showcase your
+                        startup or software</p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Company</h6>
+                    <nav class="nav flex-column"><a class="nav-item py-2" href="about.html">About</a> <a
+                            class="nav-item py-2" href="#">Services</a> <a class="nav-item py-2"
+                            href="blog/blog-grid.html">Blog</a></nav>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Product</h6>
+                    <nav class="nav flex-column"><a class="nav-item py-2" href="#">Features</a> <a
+                            class="nav-item py-2" href="#">API</a> <a class="nav-item py-2"
+                            href="#">Customers</a></nav>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Channels</h6>
+                    <nav class="nav flex-column"><a class="nav-item py-2" href="#">Careers</a> <a
+                            class="nav-item py-2" href="#">Contact</a> <a class="nav-item py-2"
+                            href="#">Search</a></nav>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <div class="row small align-items-center">
+                <div class="col-md-4">
+                    <p class="mt-2 mb-md-0 text-secondary text-center text-md-left">© 2018 5studios. All Rights
+                        Reserved</p>
+                </div>
+                <div class="col-md-8">
+                    <nav class="nav justify-content-center justify-content-md-end"><a href="#"
+                            class="btn btn-circle btn-sm btn-secondary mr-3 op-4"><i
+                                class="bi bi-facebook"></i></a> <a href="#"
+                            class="btn btn-circle btn-sm btn-secondary mr-3 op-4"><i
+                                class="icon-instagram"></i></a></nav>
+
+                                
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- <footer class="site-footer section block bg-1">
+        <div class="container py-4">
+            <div class="row gap-y text-center text-md-left">
+                <div class="col-md-4 mr-auto">
+                    <img src="https://assets.bukakios.net/favicon/v2/gradient/android-icon-72x72.png" alt="" class="logo">
+                    <p>BukaKios Merupakan Sebuah Web Dan Aplikasi yang berfungsi untuk memudahkan pengguna untuk berjualan produk pulsa all operator dan produk lainya dengan harga yang murah.</p>
+                    <p>
+                    <nav class="nav flex-column flex-md-row justify-content-left align-items-left mt-5">
+                        <a href="https://member.bukakios.net/go_lite_app.html" class="nav-link py-3 px-4 btn btn-rounded btn-download btn-6 color-5 alpha-3">
+                            <img src="img/svg/google-play.svg" class="icon icon-md" alt="...">
+                            <p class="ml-2">
+                                <span class="small bold">Download on</span>
+                                <span class="d-block bold color-5">Google Play</span>
+                            </p>
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Company</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-item py-2" href="tentang-kami.html">Tentang Kami</a>
+                        <a class="nav-item py-2" href="karir.html">Karir</a>
+                        <a class="nav-item py-2" href="#">Blog</a>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Lainya</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-item py-2" target='_blank' href="https://help.bukakios.net">FAQs</a>
+                        <a class="nav-item py-2" href="privasi.html">Kebijakan Privasi</a>
+                        <a class="nav-item py-2" href="syarat-dan-ketentuan.html">Syarat dan Ketentuan Penggunaan</a>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="py-2 bold">Customer Service</h6>
+                    <nav class="nav flex-column">
+                        <span class="nav-item py-2"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8cefffcceef9e7ede7e5e3ffa2e2e9f8">[email&#160;protected]</a></span>
+                        <span class="nav-item py-2">
+                            <a onclick="Intercom('show')" class='btn btn-primary' style='color:white'><i class='fa fa-commenting'></i> Live Chat</a>
+                        </span>
+                    </nav>
+                </div>
+                
+            </div>
+            <hr class="mt-5">
+            <div class="row small align-items-center">
+                <div class="col-md-4">
+                    <p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2021 Bukakios. All Rights Reserved</p>
+                </div>
+                <div class="col-md-8">
+                    <nav class="nav justify-content-center justify-content-md-end">
+                        <a href="https://facebook.com/bukakios.net" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/bukakios.net" class="btn btn-circle btn-sm btn-2 op-4">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>	 -->
+
+
+
+
+    <!-- footer -->
+    <!-- footer -->
+    <footer>
+        <div class="pt-lg-10 pt-5 footer bg-white container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- about company -->
+                        <div class="mb-4">
+                            <img src="assets/images/smkvektor.png" alt="" style="width: 80px !important;">
+                            <div class="mt-4">
+                                <p>Literasix merupakan sebuah platform Edukasi yang berisi artikel dan video edukasi
+                                    <br>Literasix diluncurkan oleh SMK Negeri 1 Bangkinang</p>
+                                <!-- social media -->
+                                <div class="font-size-md mt-4">
+                                    <a href="#!" class="mdi mdi-facebook text-muted mr-2"></a>
+                                    <a href="#!" class="mdi mdi-twitter text-muted mr-2"></a>
+                                    <a href="#!" class="mdi mdi-instagram text-muted "></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-2 col-md-3 col-6">
+                        <div class="mb-4">
+                            <!-- list -->
+                            <h3 class="font-weight-bold mb-3 ml-4">Instansi</h3>
+                            <ul class="list-unstyled nav nav-footer flex-column nav-x-0">
+                                <li><a href="#" class="nav-link">Tentang Kami</a></li>
+                                <li><a href="#" class="nav-link">Karir</a></li>
+                                <li><a href="#" class="nav-link">Kontak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="mb-4">
+                            <!-- list -->
+                            <h3 class="font-weight-bold mb-3 ml-4">Bantuan</h3>
+                            <ul class="list-unstyled nav nav-footer flex-column nav-x-0">
+                                <li><a href="#" class="nav-link">Halaman Bantuan dan Dukungan</a></li>
+                                <li><a href="#" class="nav-link">FAQ’s</a></li>
+                                <li><a href="#" class="nav-link">Tutorial</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <!-- contact info -->
+                        <div class="mb-4">
+                            <h3 class="font-weight-bold mb-3">Kantor</h3>
+                            <p>SMK Negeri 1 Bangkinang</p>
+                            <p> Jl. Tuanku Tambusai No.20 Bangkinang Kota, Kampar, Riau</p>
+                            <p class="mb-1">Email: <a href="#">smkn1bkn@yahoo.com</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters border-top py-2 mt-6">
+                    <!-- Desc -->
+                    <div class="col-lg-4 col-md-5 col-12">
+                        <span>© 2021 Literasix - SMK Negeri 1 Bangkinang. All Rights Reserved</span>
+                    </div>
+
+                    <!-- Links -->
+                    <div class="col-12 col-md-7 col-lg-8 d-md-flex justify-content-end">
+                        <nav class="nav nav-footer">
+                            <a class="nav-link pl-0" href="#!">Privacy Policy</a>
+                            <a class="nav-link px-2 px-md-3" href="#!">Cookie Notice </a>
+                            <a class="nav-link d-none d-lg-block" href="#!">Do Not Sell My Personal Information </a>
+                            <a class="nav-link" href="#!">Terms of Use</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- <script crossorigin="anonymous"
+        src=".polyfill.io/v3/polyfill.mina50e.js?features=IntersectionObserver%2CPromise%2CArray.prototype.includes%2CString.prototype.endsWith%2CString.prototype.startsWith%2CObject.assign%2CNodeList.prototype.forEach">
+    </script> -->
+    <script defer src="assets/js/manifeste435.js?v=f4b5551211"></script>
+    <script defer src="assets/js/vendor/content-api.mine435.js?v=f4b5551211"></script>
+    <script defer src="assets/js/vendore435.js?v=f4b5551211"></script>
+    <script defer src="assets/js/appe435.js?v=f4b5551211"></script>
+
+    <script defer src="assets/js/poste435.js?v=f4b5551211"></script>
+    <!-- <script defer src="assets/js/jquery.js"></script> -->
+
+
+    <!-- <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"
+        integrity="sha512-YBk7HhgDZvBxmtOfUdvX0z8IH2d10Hp3aEygaMNhtF8fSOvBZ16D/1bXZTJV6ndk/L/DlXxYStP8jrF77v2MIg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"
+        integrity="sha512-cu2C9EssrOrVXT4thyL4gz/qWyh3Lq9XbICUXYyh3zJRCSKk1J08tBKPXnsSpdpZXOliaK/OJBygw/l0twAmwA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"
+        integrity="sha512-bWzyGaP/f19RLeYGN6ZhDgvkS7GM0Fq23lOI1/PB3lV6I775RIDzXLxCGR4iiDGzeMsQ3lncuXUQMFP7qO9lIQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-markup.min.js"
+        integrity="sha512-nUP/WSlIWefahvwVkJlGT0ISR4X0kTok8yX28HovQ1AO9je2bfv1d9Ye0aU42E3PivSAJNMDem5+DdlGmA2dkA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-markup-templating.min.js"
+        integrity="sha512-TbMpeuT8rHP3DrAX8tSkpspYIT3It0fypBn5XaSp+Hiy3n9wvPFjd3pal7YtesrphulbmxcLNB9E0sq7xDGtWg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-java.min.js"
+        integrity="sha512-PWHY6Vao4E9K4LsGBYCY0ttDeiWZwuUozTbJvSy9UFHRz2J4Bl7rcWML3wEnJTVuCJhSwGne/8My5gTo/gnbpg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-go.min.js"
+        integrity="sha512-SgF1uayJ2/8TV+MhLasqygnm++vYRXswmrR2ZAmUCL4pXtf+6KzUgXPpn10Y6xca658sxOQEOsoP3MChfhke5A=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-kotlin.min.js"
+        integrity="sha512-aTozTdtORp/xxS/dhRRDfmv/p1eyEMTje96MplkSOqdbKGGvOYIlogoGdtsh/BD91vaqKoAw9M7O/DodqqudIQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-sql.min.js"
+        integrity="sha512-fgFGzRJStVVhs4cv/lQfAXHzcXcp4wEB3ElVApu7pkFVODd89d28hrehyJhCJKZrsTXLs00L4If+SOGNz6DoZg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-php.min.js"
+        integrity="sha512-cXEzo47tXvE4kkOcXobr8Y9jfdyQJ8r+GHlencI8tAxox7txm1nDmAinJKrPcvF16FS48BzPvf0YfuNKE/KQDg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-php-extras.min.js"
+        integrity="sha512-+sy0abU58Noo4LGIQwx+VvKp4FnX4/+7v2hBnc5AkXDdQ2Cg/CqExZK8xiTkcdMT/lFExAwEwvVSDLCVzEdujQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"
+        integrity="sha512-I4ZWqUpk7wqHcm7Gkv7k4IdgrDUTlGm1a7xeqyduqZLWeoGOn2E9us4XNBEDGclpk+6d1CmqIHYwmoyyL59zeA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-css.min.js"
+        integrity="sha512-1qYok2x2Rsm2y+mrdyrp00iH7xYSgVyIQ1egDAoT7CBZ3kSzlaJK+NhWAh746NeL3gnH6dnP8FGS+3xOdwO7ig=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-css-extras.min.js"
+        integrity="sha512-JEJN8jMnX+Ryl2SPlM18/6TwaH5FnN+Mvasfnh3E7awC/JAVpuWOvc5rSMqCD7MM22x5PxQgRUr5h8G2zHceMQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-python.min.js"
+        integrity="sha512-wK9tQmDrstGtZqTKcyVf3h457QGMlNriKs+fHmEkiCizrq0LVovfT3v1smeT1DlQetHhdRkkX1JSuZg5LoNHJg=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-bash.min.js"
+        integrity="sha512-JvRd44DHaJAv/o3wxi/dxhz2TO/jwwX8V5/LTr3gj6QMQ6qNNGXk/psoingLDuc5yZmccOq7XhpVaelIZE4tsQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-ruby.min.js"
+        integrity="sha512-qDICS97ZG2Q7I+yiQfqmSY/8UsDAW/c0eB+e1QbbzoOHIh/ViRvSD4ad7v0p5awKATtnLFyTU5UGzTurULnGWw=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-rust.min.js"
+        integrity="sha512-kgT7r2HlCEO4b+Rp3nJvm+/EMBwGMvv1WMdWkb3eNgnS91llMli8Y3T1CgnD8Hifqx50Q3XLUQXDd7PzKQQtUA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-jsx.min.js"
+        integrity="sha512-c1a+pqPUBpCSdbjFqSBAmmdFgw+vJ3IvgwN96s+G5gBAFBTsjfuxF4ZbjYdn3PilySDQ8XTqi0ox/zv//oG73A=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-mongodb.min.js"
+        integrity="sha512-AtYVBtpAxLC+qKlhuQ8O4PfNM8oc004/8yRZn/w0x66t/Ma9TgxtCIwIsMugVhGh1xZ+rsMONcGH0AJy/g/sqA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-typescript.min.js"
+        integrity="sha512-9CvArJQPTJqAXN0HJ9DrggF3yNXh09H/pDkKya7eo7Csk2ZisKOiTdJthVFPKyNc3M0m9ofpgfDwGei0V7pgJw=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-handlebars.min.js"
+        integrity="sha512-o97a0ZBE0QFhvG84/zz4UgM0UYlJmsK0Jd+/0GxwnTI8MO2prNjo0K+hao/GxOrnCygJU1aWnd/9Rn2RU8M+dw=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-smarty.min.js"
+        integrity="sha512-3oMiELKS3CRMpaJrOs6pIifuZqTVmGL1ni4VB2jPRs78x5jPnSMWPxfnHUsehw0aJKhYkpQbjgMy79SAgRbQSA=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-json.min.js"
+        integrity="sha512-IC7rV8RslChgByOdUFC6ePqOGn+OwJhnKC3S5AezM8DAiOdGhJMwgsIvBChsa2yuxxoPbH2+W/kjNUM1cc+jUQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-erb.min.js"
+        integrity="sha512-ZGv6XO3BFgt9aCQ0puu0tsX6KK7cAI8LF93YU4UXQKTfQ0NbsockmtJlU7JjWl32/xQNRp6+0gaNM0ebw3JyoQ=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-docker.min.js"
+        integrity="sha512-Zzm/P2jewqKAST5N1nARMvI72sQaPf7iWSO8AzcVsSQiEujG2NWrM/jEuiMDXyehDpHI/7gEZ2O2YsOmiaPx+g=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-yaml.min.js"
+        integrity="sha512-QRKKJS95wG2dOCdc7Cm0Zbu+L04xY8fTwhHG3UnqZPMiFrAN8uXrqVTx//eqvTaoYwNJ7oFN3Vej5gnJ+GAxkw=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-properties.min.js"
+        integrity="sha512-/OQpKjVoBU7ea243kzxng0oTw/vY+zPjRjRx2JnpnH0jzyVdrDpfc8vhwVT/w5vDAcCAKJyPwr+M16aGpsJZGw=="
+        crossorigin="anonymous"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-dart.min.js"
+        integrity="sha512-VH4yo/1lKdyJESNfX0vU4qKPs+92bCCV47CmXda5M57qV2ADdrI8An4EHjeN5L0i0qgD6YWTe7rrwc+XmMhZsg=="
+        crossorigin="anonymous"></script> -->
+</body>
+
+<!-- Mirrored from www.programmerzamannow.com/video-tutorial-java-database-aplikasi-todolist/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Mar 2021 16:05:12 GMT -->
+
+</html>
